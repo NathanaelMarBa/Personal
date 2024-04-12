@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Personal.MainPage">
+
+    <ScrollView>
+        <StackLayout>
+            <Button x:Name="Listar" Text="Listar" Clicked="Listar_Clicked"/>
+            <Label x:Name="lblLista" Text="" />
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
